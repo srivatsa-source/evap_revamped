@@ -7,7 +7,11 @@
   --color-accent: #00b44b;
   --color-gray-light: #f4f4f4;
   --color-gray-medium: #6b7280;
+<<<<<<< HEAD
   --font-primary: "Poppins", "Inter", "Segoe UI", sans-serif;
+=======
+  --font-primary: 'Poppins', 'Inter', 'Segoe UI', sans-serif;
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   --spacing-unit: 8px;
   --transition-speed: 0.3s;
 }
@@ -41,16 +45,24 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   transition: background-color var(--transition-speed),
     box-shadow var(--transition-speed);
+=======
+  transition: background-color var(--transition-speed), box-shadow var(--transition-speed);
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   padding: calc(var(--spacing-unit) * 2) 0;
 }
 
 .navbar.scrolled {
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
+=======
+  background-color: var(--color-secondary);
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -90,7 +102,11 @@ body {
 }
 
 .nav-link::after {
+<<<<<<< HEAD
   content: "";
+=======
+  content: '';
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -138,6 +154,7 @@ body {
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
+<<<<<<< HEAD
 /* Dropdown Menu Styles */
 .dropdown {
   position: relative;
@@ -198,6 +215,8 @@ body {
   color: var(--color-primary);
 }
 
+=======
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 .hero {
   position: relative;
   height: 100vh;
@@ -236,12 +255,17 @@ body {
 }
 
 @keyframes kenburns {
+<<<<<<< HEAD
   0% {
     transform: scale(1);
   }
   100% {
     transform: scale(1.1);
   }
+=======
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 }
 
 .hero-content {
@@ -357,7 +381,11 @@ body {
 }
 
 .scroll-arrow::before {
+<<<<<<< HEAD
   content: "";
+=======
+  content: '';
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   position: absolute;
   top: 10px;
   left: 50%;
@@ -370,6 +398,7 @@ body {
 }
 
 @keyframes bounce {
+<<<<<<< HEAD
   0%,
   100% {
     transform: translateY(0);
@@ -388,6 +417,15 @@ body {
     top: 30px;
     opacity: 0;
   }
+=======
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+@keyframes scrollDown {
+  0% { top: 10px; opacity: 1; }
+  100% { top: 30px; opacity: 0; }
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 }
 
 .section-title {
@@ -409,11 +447,15 @@ body {
 }
 
 .section-divider.light {
+<<<<<<< HEAD
   background: linear-gradient(
     90deg,
     var(--color-text-light),
     var(--color-primary)
   );
+=======
+  background: linear-gradient(90deg, var(--color-text-light), var(--color-primary));
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 }
 
 .products {
@@ -581,7 +623,11 @@ body {
 }
 
 .cta-button::before {
+<<<<<<< HEAD
   content: "";
+=======
+  content: '';
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   position: absolute;
   top: 0;
   left: -100%;
@@ -679,6 +725,7 @@ body {
   font-size: 0.9rem;
 }
 
+<<<<<<< HEAD
 .contact-section {
   margin-top: calc(var(--spacing-unit) * 6);
   padding-top: calc(var(--spacing-unit) * 6);
@@ -711,6 +758,8 @@ body {
   flex-shrink: 0;
 }
 
+=======
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 .news {
   padding: calc(var(--spacing-unit) * 12) 0;
   background-color: var(--color-gray-light);
@@ -958,6 +1007,7 @@ body {
     display: flex;
   }
 
+<<<<<<< HEAD
   /* Mobile dropdown styles */
   .dropdown-menu {
     position: static;
@@ -987,6 +1037,8 @@ body {
     display: none;
   }
 
+=======
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   .product-grid .product-item,
   .product-grid .product-item.reverse {
     grid-template-columns: 1fr;
@@ -1017,6 +1069,7 @@ body {
     grid-template-columns: 1fr;
   }
 
+<<<<<<< HEAD
   .contact-info {
     gap: calc(var(--spacing-unit) * 1.5);
   }
@@ -1025,6 +1078,8 @@ body {
     font-size: 0.9rem;
   }
 
+=======
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
   .hero-title {
     font-size: 2rem;
   }
@@ -1034,6 +1089,7 @@ body {
   }
 }
 
+<<<<<<< HEAD
 /* Energy Storage Page Styles */
 
 .energy-storage-hero {
@@ -1669,6 +1725,8 @@ body {
   }
 }
 
+=======
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 @media (max-width: 480px) {
   .container {
     padding: 0 calc(var(--spacing-unit) * 2);
@@ -1691,6 +1749,7 @@ body {
     height: 40px;
     font-size: 1.5rem;
   }
+<<<<<<< HEAD
 
   .hero-description {
     font-size: 1rem;
@@ -1706,4 +1765,6 @@ body {
     padding: calc(var(--spacing-unit) * 1.5);
     font-size: 0.9rem;
   }
+=======
+>>>>>>> 232b766260450739f2932dc30dd2e2dcef37305c
 }
